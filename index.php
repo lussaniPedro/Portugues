@@ -404,7 +404,7 @@
                 ["label" => "Sem banheiro em casa", "y" => 1.5],
                 ["label" => "Dificuldade nas escolas", "y" => 37]
             ];
-    
+
             $dadosJson = json_encode($dadosGrafico, JSON_NUMERIC_CHECK);
             ?>
         </section>
@@ -433,6 +433,21 @@
                     <li><a href="#dados">Dados Estatísticos</a></li>
                 </ul>
             </div>
+            <div class="footer-section links">
+                <h3>Referências</h3>
+                <ul>
+                    <li><a href="https://brasilescola.uol.com.br/geografia/pobreza-menstrual.htm" target="_blank">Brazil Escola</a></li>
+                    <li><a href="https://www.unicef.org/brazil/dignidade-menstrual" target="_blank">UNICEF</a></li>
+                    <li><a href="https://cdd.org.br/noticias/vamos-falar-sobre-dignidade-menstrual/" target="_blank">CDD</a></li>
+                    <li><a href="https://sanarmed.com/pobreza-menstrual-muito-alem-de-um-ciclo-colunistas/" target="_blank">Sanarmed</a></li>
+                    <li><a href="https://www12.senado.leg.br/noticias/infomaterias/2021/07/o-que-e-pobreza-menstrual-e-por-que-ela-afasta-estudantes-das-escolas"
+                            target="_blank">Senado</a></li>
+                    <li><a href="https://comsefaz.org.br/novo/agendas-para-o-combate-a-pobreza-menstrual/"
+                            target="_blank">Comsefaz</a></li>
+                    <li><a href="https://www.unicef.org/brazil/comunicados-de-imprensa/37-por-cento-de-adolescentes-e-jovens-que-menstruam-tem-dificuldades-de-acesso-itens-de-higiene"
+                            target="_blank">UNICEF</a></li>
+                </ul>
+            </div>
             <div class="footer-section social">
                 <h3>Redes Sociais</h3>
                 <div class="social-icons">
@@ -444,7 +459,7 @@
         </div>
         <div class="footer-bottom">
             <p>&copy;
-                <?php echo date('Y'); ?> Pobreza Menstrual - Informações e Combate. Todos os direitos reservados.
+                2025 Pobreza Menstrual - Informações e Combate. Todos os direitos reservados.
             </p>
         </div>
     </footer>
@@ -475,7 +490,7 @@
                     dataPoints: <?php echo $dadosJson; ?>
                 }]
             });
-        chart.render();
+            chart.render();
         }
 
         document.addEventListener('DOMContentLoaded', function () {
