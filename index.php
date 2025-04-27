@@ -278,6 +278,16 @@
     </style>
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LX31VSM2HN"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-LX31VSM2HN');
+</script>
+
 <body>
     <header>
         <div class="container">
@@ -436,10 +446,13 @@
             <div class="footer-section links">
                 <h3>Referências</h3>
                 <ul>
-                    <li><a href="https://brasilescola.uol.com.br/geografia/pobreza-menstrual.htm" target="_blank">Brazil Escola</a></li>
+                    <li><a href="https://brasilescola.uol.com.br/geografia/pobreza-menstrual.htm" target="_blank">Brasil
+                            Escola</a></li>
                     <li><a href="https://www.unicef.org/brazil/dignidade-menstrual" target="_blank">UNICEF</a></li>
-                    <li><a href="https://cdd.org.br/noticias/vamos-falar-sobre-dignidade-menstrual/" target="_blank">CDD</a></li>
-                    <li><a href="https://sanarmed.com/pobreza-menstrual-muito-alem-de-um-ciclo-colunistas/" target="_blank">Sanarmed</a></li>
+                    <li><a href="https://cdd.org.br/noticias/vamos-falar-sobre-dignidade-menstrual/"
+                            target="_blank">CDD</a></li>
+                    <li><a href="https://sanarmed.com/pobreza-menstrual-muito-alem-de-um-ciclo-colunistas/"
+                            target="_blank">Sanarmed</a></li>
                     <li><a href="https://www12.senado.leg.br/noticias/infomaterias/2021/07/o-que-e-pobreza-menstrual-e-por-que-ela-afasta-estudantes-das-escolas"
                             target="_blank">Senado</a></li>
                     <li><a href="https://comsefaz.org.br/novo/agendas-para-o-combate-a-pobreza-menstrual/"
@@ -459,7 +472,7 @@
         </div>
         <div class="footer-bottom">
             <p>&copy;
-                2025 Pobreza Menstrual - Informações e Combate. Todos os direitos reservados.
+                2025 Pedro Lussani. Todos os direitos reservados.
             </p>
         </div>
     </footer>
