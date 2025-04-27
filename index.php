@@ -278,6 +278,16 @@
     </style>
 </head>
 
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LX31VSM2HN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LX31VSM2HN');
+</script>
+
 <body>
     <header>
         <div class="container">
@@ -459,7 +469,7 @@
         </div>
         <div class="footer-bottom">
             <p>&copy;
-                2025 Pobreza Menstrual - Informações e Combate. Todos os direitos reservados.
+                2025 Pedro Lussani. Todos os direitos reservados.
             </p>
         </div>
     </footer>
