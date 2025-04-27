@@ -278,7 +278,6 @@
     </style>
 </head>
 
-<<<<<<< HEAD
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LX31VSM2HN"></script>
 <script>
@@ -287,16 +286,7 @@
     gtag('js', new Date());
 
     gtag('config', 'G-LX31VSM2HN');
-=======
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LX31VSM2HN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-LX31VSM2HN');
->>>>>>> 1875fa0b314b6698f5d50f1b704a21287770f5e5
 </script>
 
 <body>
