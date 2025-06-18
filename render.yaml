@@ -3,4 +3,4 @@ services:
     name: meu-site-php
     env: docker
     plan: free
-    dockerfilePath: Dockerfile
+    dockerfilePath: Dockerfile 
