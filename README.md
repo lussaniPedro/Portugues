@@ -12,6 +12,6 @@ O objetivo deste trabalho é refletir sobre a dignidade humana em relação à p
 
 ## Instituição
 
-*Instituto Federal do Paraná – IFPR*
-*Campus Paranaguá*
-*Curso Técnico Integrado em Informática – Turma de 2024*
+*Instituto Federal do Paraná – IFPR*  
+*Campus Paranaguá*  
+*Curso Técnico Integrado em Informática – Turma de 2024*  
